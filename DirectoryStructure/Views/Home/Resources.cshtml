@@ -1,0 +1,13 @@
+﻿@model Dir
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1>"Folder" - @Model.DirName0</h1>
+    <br/>
+    <a asp-area="" asp-controller="Home" asp-action="Resources">@Model.DirName1</a>
+    <br/>
+    <a asp-area="" asp-controller="Home" asp-action="Resources">@Model.DirName2</a>
+</div>
